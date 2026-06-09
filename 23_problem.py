@@ -3,4 +3,5 @@
 import pandas as pd
 S = pd.DataFrame({"A":[10,20,30,40] , "B":[9,18,27,36]})
 S["<=30"] = S["A"] <= 30
+S[">=27"] = S["B"] >= 27
 print(S)
